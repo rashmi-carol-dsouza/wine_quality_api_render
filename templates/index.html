@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello, world!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+    <h1>Wine Quality Prediction</h1>
+    <form action="/predict" method="POST">
+    <label for="citricAcidInput">Citric Acid:</label>
+    <input type="text" id="citricAcidInput" name="citric_acid"><br>
+
+    <label for="residualSugarInput">Residual Sugar:</label>
+    <input type="text" id="residualSugarInput" name="residual_sugar"><br>
+
+    <label for="alcoholInput">Alcohol:</label>
+    <input type="text" id="alcoholInput" name="alcohol"><br>
+
+    <button type="submit">Predict Quality</button>
+    </form>
+</body>
+</html>
